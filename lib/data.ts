@@ -106,7 +106,7 @@ export const EXPERIENCES = [
   },
   {
     id: 'Café-de-la-Paix',
-    title: 'Receptionist',
+    title: 'Receptionist at Café de la Paix',
     company: 'MHBA',
     period: '10/2023 - 12/2023',
     shortDate: 'Oct-Déc 2023',
@@ -114,7 +114,7 @@ export const EXPERIENCES = [
   },
   {
     id: 'Louis-Vuitton',
-    title: 'Host',
+    title: 'Host at Louis Vuitton',
     company: 'DSD Organisation',
     period: '07/2023 - 09/2023',
     shortDate: 'Juil-Sept 2023',
@@ -122,7 +122,7 @@ export const EXPERIENCES = [
   },
   {
     id: 'Cartier',
-    title: 'Groom',
+    title: 'Groom at Cartier',
     company: 'DSD Organisation',
     period: '07/2023 - 09/2023',
     shortDate: 'Juil-Sept 2023',
