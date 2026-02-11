@@ -1,18 +1,8 @@
-// ═══════════════════════════════════════════════════════════
-// 📊 DATA - Vos données personnelles (projets, expériences, etc.)
-// ═══════════════════════════════════════════════════════════
-// 🎓 TODO POUR VOUS : Remplacez toutes les données par les vôtres
-
-// ────────────────────────────────────────────────────────
-// 👤 INFORMATIONS PERSONNELLES
-// ────────────────────────────────────────────────────────
 export const PERSONAL_INFO = {
   name: 'Nicolas Micuda Becker',
   title: 'Computer Science Student',
   tagline: 'Building elegant solutions through code',
   description: 'Third-year Computer Science student passionate about UX/UI. I specialize in UX/UI design and development and I\'m currently seeking for internship opportunities. I love tackling user experience challenges and building intuitive interfaces.',
-  
-  // Texte About Me (à personnaliser avec votre ancien texte !)
   aboutText: `Hi, I'm Nicolas Micuda Becker, a computer science student at Université Paris 8 Vincennes. I'm passionate about web development, algorithms, and system design. Through my projects, I've honed problem-solving skills and adaptability. I'm always eager to learn and take on new challenges.
 
 I'm currently seeking an internship or apprenticeship to gain hands-on experience. Feel free to reach out if you're looking for a motivated team member! Explore my portfolio to learn more about my journey and projects.`,
@@ -20,23 +10,14 @@ I'm currently seeking an internship or apprenticeship to gain hands-on experienc
   email: 'nicolas.micuda@gmail.com',
   phone: '0771645615',
   location: 'Paris, France',
-  
-  // Liens sociaux
   social: {
     github: 'https://github.com/Nicolas-micuda-becker',
     linkedin: 'https://www.linkedin.com/in/nicolas-micuda-becker-6b73a92b1/',
   },
-  
-  // CV
   cvUrl: '/img/CV.pdf',
-  
-  // Photo
   photoUrl: '/img/IMG_1829.jpeg',
 } as const;
 
-// ────────────────────────────────────────────────────────
-// 📈 STATISTIQUES (pour section About)
-// ────────────────────────────────────────────────────────
 export const STATS = [
   {
     id: 'languages',
@@ -76,9 +57,6 @@ export const STATS = [
   },
 ] as const;
 
-// ────────────────────────────────────────────────────────
-// 💼 EXPÉRIENCES PROFESSIONNELLES (Timeline)
-// ────────────────────────────────────────────────────────
 export const EXPERIENCES = [
   {
     id: 'Event-Staff-Playtime',
@@ -130,16 +108,13 @@ export const EXPERIENCES = [
   },
 ] as const;
 
-// ────────────────────────────────────────────────────────
-// 💻 PROJETS
-// ────────────────────────────────────────────────────────
 export const PROJECTS = [
   {
     id: 'my-website',
     name: 'React Portfolio Website',
     description: 'Personal portfolio website built with React and Three.js',
     technologies: ['Three.js', 'JavaScript', 'React', 'Web Development'],
-    githubUrl: 'https://github.com/Nicolas-micuda-becker/THREEJS-EXPERIENCE-3D',
+    githubUrl: 'https://github.com/Nicolas-micuda-becker/My-portfolio',
     image: '/img/threejs.jpg',
     object3D: {
       type: 'sphere',      // Sphère (symbolise 3D)
@@ -227,9 +202,5 @@ export const PROJECTS = [
   },
 ] as const;
 
-// ────────────────────────────────────────────────────────
-// 🎓 TYPES TypeScript (pour autocomplétion)
-// ────────────────────────────────────────────────────────
-export type Stat = typeof STATS[number];
-export type Experience = typeof EXPERIENCES[number];
 export type Project = typeof PROJECTS[number];
+export type Experience = typeof EXPERIENCES[number];

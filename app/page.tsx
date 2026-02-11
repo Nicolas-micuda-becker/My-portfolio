@@ -1,7 +1,3 @@
-// ═══════════════════════════════════════════════════════════
-// 🏠 PAGE PRINCIPALE - Portfolio Nicolas Micuda Becker
-// ═══════════════════════════════════════════════════════════
-
 import Header from '@/components/layout/Header';
 import Navigation from '@/components/layout/Navigation';
 import Hero from '@/components/sections/Hero';
