@@ -117,8 +117,8 @@ export const PROJECTS = [
     githubUrl: 'https://github.com/Nicolas-micuda-becker/My-portfolio',
     image: '/img/threejs.jpg',
     object3D: {
-      type: 'sphere',      // Sphère (symbolise 3D)
-      color: '#E91E63',    // Rose
+      type: 'sphere',
+      color: '#E91E63',
     },
   },
   {
@@ -129,10 +129,9 @@ export const PROJECTS = [
     githubUrl: 'https://github.com/Nicolas-micuda-becker/OCaml-MIPS-Compiler',
     liveUrl: null,
     image: '/img/compiler.jpg',
-    // 🎨 Objet 3D pour ce projet (sera utilisé dans la table 3D)
     object3D: {
-      type: 'gear',        // Engrenage (symbolise compilation)
-      color: '#FF6B35',    // Orange
+      type: 'gear',
+      color: '#FF6B35',
     },
   },
   {
@@ -144,8 +143,8 @@ export const PROJECTS = [
     liveUrl: null,
     image: '/img/tsp.jpg',
     object3D: {
-      type: 'network',     // Réseau de nœuds
-      color: '#61DAFB',    // Bleu clair
+      type: 'network',
+      color: '#61DAFB',
     },
   },
   {
@@ -157,8 +156,8 @@ export const PROJECTS = [
     liveUrl: null,
     image: '/img/Voronoi.jpg',
     object3D: {
-      type: 'polyhedron',  // Polyèdre (symbolise géométrie)
-      color: '#FF9800',    // Orange foncé
+      type: 'polyhedron',
+      color: '#FF9800',
     },
   },
   {
@@ -170,8 +169,8 @@ export const PROJECTS = [
     liveUrl: null,
     image: '/img/Compressor.jpg',
     object3D: {
-      type: 'cube',        // Cube (symbolise données)
-      color: '#4CAF50',    // Vert
+      type: 'cube',
+      color: '#4CAF50',
     },
   },
   {
@@ -183,8 +182,8 @@ export const PROJECTS = [
     liveUrl: null,
     image: '/img/threejs.jpg',
     object3D: {
-      type: 'sphere',      // Sphère (symbolise 3D)
-      color: '#E91E63',    // Rose
+      type: 'sphere',
+      color: '#E91E63',
     },
   },
   {
@@ -196,8 +195,8 @@ export const PROJECTS = [
     liveUrl: null,
     image: '/img/logisim.jpg',
     object3D: {
-      type: 'grid',        // Grille (symbolise automate cellulaire)
-      color: '#9C27B0',    // Violet
+      type: 'grid',
+      color: '#9C27B0',
     },
   },
 ] as const;

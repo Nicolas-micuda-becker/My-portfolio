@@ -23,19 +23,17 @@ export const metadata: Metadata = {
     title: "Nicolas Micuda Becker | Portfolio",
     description: "Computer Science student portfolio",
     type: "website",
-  ],
+  },
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body
-        className={`${inter.variable} ${spaceGrotesk.variable} font-sans antialiased`}
-      >
+      <body className={`${inter.variable} ${spaceGrotesk.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>
